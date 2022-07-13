@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/tram/static/css/main.476e995a.css",
+    "main.js": "/tram/static/js/main.58a82819.js",
+    "static/media/tram.jpg": "/tram/static/media/tram.ceeb217809434544e660.jpg",
+    "static/media/brushes.jpg": "/tram/static/media/brushes.a67ad18ef2a8bd4fc4f9.jpg",
+    "static/media/makeup-bg.jpg": "/tram/static/media/makeup-bg.571207d90ab258b8f134.jpg",
+    "static/media/Beauty.ttf": "/tram/static/media/Beauty.28ced091504adb5df963.ttf",
+    "static/media/Belleza-Regular.ttf": "/tram/static/media/Belleza-Regular.ef08f378a720a6d35c3b.ttf",
+    "index.html": "/tram/index.html",
+    "main.476e995a.css.map": "/tram/static/css/main.476e995a.css.map",
+    "main.58a82819.js.map": "/tram/static/js/main.58a82819.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.476e995a.css",
+    "static/js/main.58a82819.js"
+  ]
+}
