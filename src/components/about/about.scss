@@ -1,0 +1,76 @@
+.__about-container {
+  height:800px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(240.01deg, #23bad530 0%, #f672631d 48.55%, #23bad530 99.36%);
+  box-shadow: 0 0 5px 2px #000;
+}
+
+.__about-container::before {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height:800px;
+  background-image: url(../../assets/makeup-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% 100%;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.__about-text {
+  margin: 4rem 1.5rem;
+
+
+
+  h1 {
+    font-family: 'beauty';
+    color: var(--color-blue);
+    font-size: var(--size-h2);
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: var(--size-p1);
+    font-family: 'belleza';
+    font-weight: bold;
+    line-height: 1.2rem;
+  }
+}
+
+.__about-quote {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  width: 80%;
+  margin: 1.5rem;
+  background: linear-gradient(218deg, #23bad560 0%, #23bad500 30%, #23bad500 65%, #23bad560 100%),
+   #000000bc;
+  padding: 1.5rem ;
+  text-align: right;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  h1 {
+    color: var(--color-blue);
+    font-family: 'beauty';
+    font-size: var(--size-h2);
+    padding-left: -2rem;
+  }
+}
+
+.quotations {
+  font-family: 'belleza';
+  font-size: 100px;
+  color: var(--color-blue);
+  margin-top: -1.3rem;
+}
+
+.quotations:nth-child(3) {
+ align-self: flex-end;
+ margin-left: 1.2rem;
+ margin-bottom: -3rem;
+}

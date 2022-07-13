@@ -1,0 +1,57 @@
+// .__home-container::before {
+//   content: "";
+
+//   // filter: grayscale(100%);
+//   // position: absolute;
+//   // top: 0; left: 0;
+//   // z-index: -1;
+// }
+
+.__home-container {
+  // position: relative;
+  height: 800px;
+  width: 100%;
+  background-image: url(../../assets/tram.jpg);
+  background-size: cover;
+  background-position: 45%;
+  display: flex;
+  gap: 5.5rem;
+  flex-wrap: wrap;
+}
+
+.__home-intro{
+  height: 400px;
+  margin: 1.5rem;
+  
+  h1{
+  color: var(--color-blue);
+  font-family: 'beauty';
+  font-size: var(--size-h3);
+  background: linear-gradient(-220deg, #f672638d 0%, #e4a44213 25%, #e4a44213 80%, #f672638d 100%),
+              linear-gradient(220deg, #23bad560 0%, #23bad500 25%, #23bad500 80%, #23bad560 100%),
+            #000000ac;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 1px #000;
+  margin-left: 1rem;
+  text-align: center;
+  padding: .5rem;
+  }
+}
+
+.__home-menu-cta svg {
+  font-size: 50px;
+  background: #000;
+  color: var(--color-blue);
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  justify-self: center;
+  
+}
+

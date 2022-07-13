@@ -1,0 +1,82 @@
+.__gallery-container {
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
+  background: linear-gradient(230deg, #f672638d 0%, #e4a44213 48.42%, #f672638d 99.36%);
+  display: flex;
+  flex-direction: column;
+}
+
+.__gallery-container::before {
+  content: "";
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  top: 0;
+  background-image: url(../../assets/brushes.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+
+// https://www.npmjs.com/package/react-compare-slider
+.__gallery-slider {
+  padding: 6rem 1.5rem 0.5rem 1.5rem ;
+  height: 500px;
+  width: 100%;
+
+  img {
+    border-radius: 10px;
+    border: 3px solid #fff;
+
+  }
+
+  div {
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+  }
+
+  .__rcs-handle-line {
+    color: var(--color-blue);
+  }
+}
+
+.__gallery-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  h1 {
+    color: var(--color-blue);
+    font-family: 'belleza';
+    font-size: var(--size-h2);
+    background: #000000bb;
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  p {
+    font-family: 'belleza';
+    margin: 3rem 1.5rem 1.5rem 1rem;
+    color: #fff;
+    font-size: var(--size-p1);
+    padding: 0.6rem;
+    background: #000000bb;
+    border-radius: 10px;
+    line-height: 1.5rem;
+  }
+}
+
+.book {
+  margin-top: 5rem;
+}
+
+
+

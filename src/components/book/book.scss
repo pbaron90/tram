@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--color-redish);
+  box-shadow: 0 0 5px 1px #000;
+  color: white;
+  font-size: var(--size-h2);
+  font-family: 'belleza';  
+  flex-basis: 50%;
+  text-align: center;
+  border-radius: 20px;
+  height: 42px;
+  width: 140px;
+  padding: 6px 0;
+}

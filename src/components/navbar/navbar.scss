@@ -1,0 +1,39 @@
+.navbar-menu svg {
+  font-size: 50px;
+  background: #000;
+  color: var(--color-blue);
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px var(--color-blue);
+  margin-top: 1.5rem;
+  position: fixed;
+  z-index: 99;  
+}
+
+.navbar-container-links {
+  position: fixed;
+  top: 8.7%;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(225deg, #f6726360 0%, #00000000 40%, #00000000 65%, #f6726360 100%),
+  #000;
+  color: var(--color-blue);
+  text-align: left;
+  border: 1px solid var(--color-redish);
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  z-index: 99;
+
+  p {
+    font-size: var(--size-h1);
+    font-family: beauty;
+  }
+
+  p:active {
+    color: red;
+  }
+}

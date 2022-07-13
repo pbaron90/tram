@@ -1,0 +1,20 @@
+.carousel-container {
+  height: 300px;
+  color: var(--color-blue);
+  background: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding: 1rem 0;
+  background: #000000db;
+  color: var(--color-blue);
+  border-radius: 10%;
+}

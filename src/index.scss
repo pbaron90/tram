@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'belleza';
+  src: url(./assets/fonts/Belleza-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'beauty';
+  src: url(./assets/fonts/Beauty.ttf);
+}
+
+
+:root {
+  --color-bg: #f7ebe5;
+  --color-redish: #f66657;
+  --color-gold: #e4a442;
+  --color-orange: #e47a46;
+  --color-blue: #23bad5; 
+
+  --size-h1: 26px;
+  --size-h2: 22px;
+  --size-h3: 18px;
+  --size-h4: 16px;
+  
+  --size-p1: 14px;
+  --size-p2: 12px;
+
+  --font-other: 'Source Sans'
+
+}
